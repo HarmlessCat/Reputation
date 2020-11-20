@@ -1,0 +1,14 @@
+name: ReputationPoints
+version: ${project.version}
+main: net.invasionpvp.harmlesscat.ReputationPointsMain
+api-version: 1.8.9
+depend:
+  - Factions
+  - PlaceholderAPI
+commands:
+  arep:
+    aliases:
+      - adminrep
+  rep:
+    aliases:
+      - reputation
